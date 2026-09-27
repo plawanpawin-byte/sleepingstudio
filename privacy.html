@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — SleepingStudio</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><img src="logo.svg" width="28" height="21" alt="" /> SleepingStudio</a>
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: September 27, 2026</p>
+  <p>SleepingStudio (“the app”) is a Windows desktop application. This policy explains what information the app handles and where it goes. In short: <b>SleepingStudio has no servers of its own.</b> Your data stays on your computer, except what is sent to the AI provider you configure so it can answer you.</p>
+
+  <h2>Google sign-in</h2>
+  <p>If you choose “Continue with Google”, the app asks Google only for your basic profile: <b>name, email address and profile picture</b> (scopes <code>openid</code>, <code>email</code>, <code>profile</code>). Sign-in happens on Google’s own page in your web browser; the app never sees your Google password. The app keeps your name, email and picture <b>on your computer only</b>, to show which account is signed in. Google access tokens are used once during sign-in and are not stored. The app does not access Gmail, Drive, Contacts or any other Google data.</p>
+  <p>SleepingStudio’s use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>AI provider (OpenRouter)</h2>
+  <p>You provide your own OpenRouter API key. It is stored on your computer, encrypted with Windows (DPAPI). When you chat, your messages — and, if connected, relevant content from your Roblox place such as script text, instance names and Output logs — are sent to <a href="https://openrouter.ai/privacy">OpenRouter</a> and the AI model provider you select, so they can generate a reply. Their handling of that data is governed by their own policies.</p>
+
+  <h2>Roblox Studio connection</h2>
+  <p>When enabled, the app connects to Roblox Studio on your computer through Roblox’s local MCP server to read your open place (read-only). This content is used only to answer your requests and is sent only to the AI provider as described above. The app also reads Roblox Studio’s recent-files list on your PC to show your projects.</p>
+
+  <h2>Data stored on your computer</h2>
+  <ul>
+    <li>Settings, chosen AI model and theme</li>
+    <li>Your signed-in account’s name, email and picture</li>
+    <li>Your OpenRouter API key (encrypted)</li>
+    <li>Chat history</li>
+    <li>Local log files for troubleshooting (API keys and tokens are removed from logs)</li>
+  </ul>
+  <p>These live in <code>%APPDATA%\SleepingStudio</code>. You can delete them at any time by signing out, removing your key in Settings, or uninstalling the app and deleting that folder.</p>
+
+  <h2>What we don’t do</h2>
+  <p>We don’t sell or share your personal information, don’t use it for advertising, and don’t collect analytics or telemetry.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed to children under 13. Younger Roblox developers should use it only with a parent or guardian.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the date above will be updated. Questions: <a href="mailto:plawanpawin@gmail.com">plawanpawin@gmail.com</a>.</p>
+</main>
+<footer>
+  <span>© 2026 SleepingStudio</span>
+  <a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a>
+  <a href="mailto:plawanpawin@gmail.com">Contact</a>
+</footer>
+</body>
+</html>
